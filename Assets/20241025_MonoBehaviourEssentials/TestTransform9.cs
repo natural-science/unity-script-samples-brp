@@ -4,7 +4,7 @@ using UnityEngine;
 //         ↓↓↓↓↓↓↓↓ はフォルダの日付と合わせる
 namespace _20241025_MonoBehaviourEssentials
 {
-  public class TestTransform : MonoBehaviour
+  public class TestTransform9 : MonoBehaviour
   {
     [SerializeField] private GameObject o0;
     [SerializeField] private GameObject o1;
