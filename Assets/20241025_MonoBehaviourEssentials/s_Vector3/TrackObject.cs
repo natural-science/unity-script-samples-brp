@@ -10,7 +10,7 @@ namespace _20241025_MonoBehaviourEssentials.s_Vector3
 
     void Update()
     {
-      transform.position = target.position;
+      transform.position = target.transform.position;
     }
   }
 }

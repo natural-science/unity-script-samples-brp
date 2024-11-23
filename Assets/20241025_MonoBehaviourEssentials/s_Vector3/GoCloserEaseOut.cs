@@ -11,7 +11,7 @@ namespace _20241025_MonoBehaviourEssentials.s_Vector3
     void Update()
     {
       var diff = go0.transform.position - transform.position;
-      transform.position += diff * 0.001f;
+      transform.position += diff * 0.01f;
     }
   }
 }

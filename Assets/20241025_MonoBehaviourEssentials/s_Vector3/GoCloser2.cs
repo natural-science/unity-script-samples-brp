@@ -20,7 +20,7 @@ namespace _20241025_MonoBehaviourEssentials.s_Vector3
 
     void Update()
     {
-      _timer -= 0.01f; // フレーム毎に 0.01 秒経過すると仮定する。
+      _timer -= 0.005f; // フレーム毎に 0.005 秒経過すると仮定する。
       if (_timer <= 0f) {
         _timer += 1f;
         _goingToGo0 = !_goingToGo0;
