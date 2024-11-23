@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 // この講座のルール:
 //         ↓↓↓↓↓↓↓↓ はフォルダの日付と合わせる

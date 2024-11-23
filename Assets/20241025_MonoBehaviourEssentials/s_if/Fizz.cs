@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 // この講座のルール:
 //         ↓↓↓↓↓↓↓↓ はフォルダの日付と合わせる
@@ -6,7 +6,7 @@ namespace _20241025_MonoBehaviourEssentials
 {
   public class Fizz : MonoBehaviour
   {
-    private int i = 0; 
+    private int i = 0;
 
     void Update()
     {

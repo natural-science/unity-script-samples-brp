@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 // この講座のルール:
 //         ↓↓↓↓↓↓↓↓ はフォルダの日付と合わせる
@@ -6,7 +6,7 @@ namespace _20241025_MonoBehaviourEssentials
 {
   public class FizzBuzz1 : MonoBehaviour
   {
-    private int i = 0; 
+    private int i = 0;
 
     void Update()
     {
@@ -20,18 +20,6 @@ namespace _20241025_MonoBehaviourEssentials
       } else {
         Debug.Log(i);
       }
-
-/*
-      if (i % 3 != 0 && i % 5 != 0) {
-        Debug.Log(i);
-      } else if (i % 3 == 0 && i % 5 != 0) {
-        Debug.Log("Fizz");
-      } else if (i % 3 != 0 && i % 5 == 0) {
-        Debug.Log("Buzz");
-      } else {
-        Debug.Log("FizzBuzz");
-      }
-*/
     }
   }
 }
